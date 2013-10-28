@@ -1,0 +1,36 @@
+hmlt, body{
+	margin: 0px;
+	padding: 0px;
+	background: none repeat scroll 0 0 #000000;
+}
+
+#screen {
+	border-radius: 2px;
+}
+
+
+#topElements{
+	background: transparent;
+	position: absolute;
+	z-index: 2;
+	display: none;
+}
+
+.life{
+	width: 189px;
+	height: 40px;
+	background: url(../img/character/LIFECORES.png);
+	/*background-size: 20px 20px;*/
+	top: 32px;
+	left: 92px;
+	position: absolute;
+}
+
+.life_content{
+	top: 10px;
+	left: 10px;
+	position: absolute;
+	background: url(../img/character/LIFEFUNDO.png);
+	width: 303px;
+	height: 81px;
+}
